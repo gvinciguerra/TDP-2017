@@ -1,0 +1,35 @@
+
+# Created by https://www.gitignore.io/api/java,bluej
+
+### bluej ###
+# BlueJ: A Java IDE for programming beginners. http://bluej.org
+
+# Editor preferences for a class etc, see http://lists.bluej.org/pipermail/bluej-discuss/2003-May/002351.html
+*.ctxt
+
+# Duplicate of project file, see http://www.hs-owl.de/fb5/labor/it/de/if1/vl/IF1JavaOhneBluej.pdf, page 4
+bluej.pkh
+### Java ###
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# End of https://www.gitignore.io/api/java,bluej
