@@ -4,7 +4,7 @@ import java.util.*;
 public class Order {
     private List<Pizza> pizza;
     private Client client;
-    private float discount = 0;
+    private float discount;
 
     public Order(List<Pizza> p, Client c) {
         pizza = new ArrayList<Pizza>(p);
