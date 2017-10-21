@@ -1,4 +1,4 @@
-public class SamsungRemote extends Product {
+public class SamsungRemote extends Remote {
     public String getProducer() {
         return "Samsung";
     }

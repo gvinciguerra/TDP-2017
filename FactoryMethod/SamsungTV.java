@@ -1,4 +1,4 @@
-public class SamsungTV extends Product {
+public class SamsungTV extends TV {
     public String getProducer() {
         return "Samsung";
     }

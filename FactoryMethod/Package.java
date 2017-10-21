@@ -8,10 +8,9 @@ public class Package {
         this.content = new ArrayList<>(content);
     }
     
-    public List<Product> getContent() {
-        return new ArrayList<>(content);
-    }
-    
     public void close() {
+        System.out.println("Package closed:");
+        for (Product i : content)
+            System.out.println("- " + i.getDescription() + " (" + i.getProducer() +")");
     }
 }

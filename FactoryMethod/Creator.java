@@ -1,14 +1,14 @@
-import java.util.List;
+import java.util.*;
 
 public abstract class Creator {
     public Package pack() {
-        Package p = new Package(createProducts());
+        List<Product> products = Arrays.asList(createTV(), createRemote());
+        Package p = new Package(products);
         p.close();
-        System.out.println("Package closed:");
-        for (Product i : p.getContent())
-            System.out.println("- " + i.getDescription() + " (" + i.getProducer() +")");
         return p;
     }
     
-    abstract public List<Product> createProducts();
+    abstract public TV createTV();
+    
+    abstract public Remote createRemote();
 }

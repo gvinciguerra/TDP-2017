@@ -1,4 +1,4 @@
-public class PhilipsTV extends Product {
+public class PhilipsTV extends TV {
     public String getProducer() {
         return "Philips";
     }
