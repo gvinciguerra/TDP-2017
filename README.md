@@ -10,7 +10,7 @@ PizzaCap is a company that sells pizzas and gives discounts to clients. But ther
 
 Now Pizza Cap asks you to develop a sales management system, they want you to design a schema to calculate the discount when selling pizzas.Your design should be capable of selecting the discount calculation methods. Furthermore, when they need new discount calculation methods or want to modify old methods, it should be very easy and will not affect the existing system.
 
-### State [[1]](/State1) [[2]](/State2)
+### State [1](/State1) & [2](/State2)
 Consider a class with two methods, `push()` and `pull()`, whose behaviour changes depending on the object state.
 
 To send the push and pull requests to the object, we'll use a GUI with "Push" and "Pull" buttons. The state of the object will be indicated by the colour of the canvas in the top part of the GUI.
@@ -34,9 +34,22 @@ The winter holidays will be here (again) before you know it! Being the organised
 
 A very important requirement is that a tree can only have one star (not trivial to implement this requirement). When a user wants to decorate a tree with a star with a new star you must print a warning that the tree already has a star and not add the price of a star to tree. Users must be able to continue decorating their tree if they add another star to it.
 
-### Factory Patterns [1](/FactoryMethod) [2](/AbstractFactory)
-Apply the factory patterns to produce TVs and remote controls
-  of two types: Samsung and Philips.
+### Factory Patterns [1](/FactoryMethod) & [2](/AbstractFactory)
+Apply the factory patterns to produce TVs and remote controls of two types: Samsung and Philips.
 
 1. With factory method the creator builds a TV and its RC, then packs it.
 2. With abstract factory a client chooses the factory and asks for the product(s) he needs.
+
+### [Command Pattern](/Command)
+Using command, decorate a Christmas tree (you might have problems in composing with decorator, figure out a solution, the requirement being: use command). Define two standard decorations that can be invoked by lazy or non-creative people. Undecorate the tree after Epiphany (and put everything in a box)
+
+### Adapter Pattern [1](/Adapter) & [2](/AdapterFacade)
+Extend the ugly duckling example to adapt turkeys too:
+1. Using strategy.
+2. Using façade.
+
+### Façade Pattern [1](/Facade1) & [2](/Facade2)
+1. Modify the home theatre example along the following dimensions:
+  - CD is substituted with a french one
+  - The system prevents you from watching a movie you saw
+2. Create and example where Façade is an abstract class with different concrete subclasses.
