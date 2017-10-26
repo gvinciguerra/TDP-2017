@@ -41,7 +41,7 @@ Apply the factory patterns to produce TVs and remote controls of two types: Sams
 2. With abstract factory a client chooses the factory and asks for the product(s) he needs.
 
 ### [Command Pattern](/Command)
-Using command, decorate a Christmas tree (you might have problems in composing with decorator, figure out a solution, the requirement being: use command). Define two standard decorations that can be invoked by lazy or non-creative people. Undecorate the tree after Epiphany (and put everything in a box)
+Using command, decorate a Christmas tree (you might have problems in composing with decorator, figure out a solution, the requirement being: use command). Define two standard decorations that can be invoked by lazy or non-creative people. Undecorate the tree after Epiphany (and put everything in a box).
 
 ### Adapter Pattern [1](/Adapter) & [2](/AdapterFacade)
 Extend the ugly duckling example to adapt turkeys too:
