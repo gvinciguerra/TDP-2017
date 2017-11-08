@@ -50,6 +50,11 @@ Extend the ugly duckling example to adapt turkeys too:
 
 ### Façade Pattern [1](/Facade1) & [2](/Facade2)
 1. Modify the home theatre example along the following dimensions:
-  - CD is substituted with a french one
-  - The system prevents you from watching a movie you saw
+  - CD is substituted with a french one.
+  - The system prevents you from watching a movie you saw.
 2. Create and example where Façade is an abstract class with different concrete subclasses.
+
+### Template Method [1](/TemplateMethod1) & [2](/TemplateMethod2)
+Use the Template Method pattern to:
+1. Refine a sorting algorithm for sorting in a different (ascending vs descending) order. 
+2. Write your favorite recipe with measures in the metric system and in the anglosaxon one.

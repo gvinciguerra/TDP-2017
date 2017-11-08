@@ -2,8 +2,12 @@ public class AliveState extends CellState {
     protected static AliveState instance;
     
     private AliveState() {
+    }
+    
+    public static AliveState create() {
         if (instance == null)
             instance = new AliveState();
+        return instance;
     }
     
     @Override

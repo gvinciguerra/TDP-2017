@@ -1,9 +1,13 @@
 public class DeadState extends CellState {
     protected static DeadState instance;
     
-    private DeadState() {
+    private DeadState() {   
+    }
+    
+    public static DeadState create() {
         if (instance == null)
             instance = new DeadState();
+        return instance;
     }
     
     @Override
