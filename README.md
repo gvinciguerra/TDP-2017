@@ -40,15 +40,15 @@ Apply the factory patterns to produce TVs and remote controls of two types: Sams
 1. With factory method the creator builds a TV and its RC, then packs it.
 2. With abstract factory a client chooses the factory and asks for the product(s) he needs.
 
-### [Command Pattern](/Command)
+### [Command](/Command)
 Using command, decorate a Christmas tree (you might have problems in composing with decorator, figure out a solution, the requirement being: use command). Define two standard decorations that can be invoked by lazy or non-creative people. Undecorate the tree after Epiphany (and put everything in a box).
 
-### Adapter Pattern [1](/Adapter) & [2](/AdapterFacade)
+### Adapter [1](/Adapter) & [2](/AdapterFacade)
 Extend the ugly duckling example to adapt turkeys too:
 1. Using strategy.
 2. Using façade.
 
-### Façade Pattern [1](/Facade1) & [2](/Facade2)
+### Façade [1](/Facade1) & [2](/Facade2)
 1. Modify the home theatre example along the following dimensions:
   - CD is substituted with a french one.
   - The system prevents you from watching a movie you saw.
@@ -58,3 +58,6 @@ Extend the ugly duckling example to adapt turkeys too:
 Use the Template Method pattern to:
 1. Refine a sorting algorithm for sorting in a different (ascending vs descending) order. 
 2. Write your favorite recipe with measures in the metric system and in the anglosaxon one.
+
+### [Bridge](/Bridge)
+Using the Bridge pattern design a soda machine with two abstractions (regular and supersize soda) and three implementors (cola, ginger ale, beer).
