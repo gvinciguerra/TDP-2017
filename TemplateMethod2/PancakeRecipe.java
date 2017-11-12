@@ -33,7 +33,7 @@ public abstract class PancakeRecipe {
     }
     
     void heatGriddle() {
-        System.out.println("Eat an oiled griddle");
+        System.out.println("Heat an oiled griddle");
     }
     
     void takeLargeBowl() {
