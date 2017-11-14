@@ -59,5 +59,17 @@ Use the Template Method pattern to:
 1. Refine a sorting algorithm for sorting in a different (ascending vs descending) order. 
 2. Write your favorite recipe with measures in the metric system and in the anglosaxon one.
 
-### [Bridge](/Bridge)
-Using the Bridge pattern design a soda machine with two abstractions (regular and supersize soda) and three implementors (cola, ginger ale, beer).
+### Bridge [1](/Bridge1) & [2](/Bridge2)
+Using the Bridge pattern:
+1. Design a soda machine with two abstractions (regular and supersize soda) and three implementors (cola, ginger ale, beer).
+2. Model the software for switched devices in a home with a UML class diagram. Switches come in several varieties, such as
+    - a ceiling light two-position switch,
+    -  a ceiling fan pull chain (i.e., each pull increases the fan’s speed until the maximum speed is reached, where upon the next pull turns the fan off), and
+    -  a light dimmer switch (to permit continuous adjustment to the light’s brightness).
+
+### [Visitor & Composite](/VisitorAndComposite)
+Given three colour classes (Red, Blue, Green), assume an array `colours` contains mixed objects from those three classes. We want to the following:
+- To find number of Red, Blue, and Green objects, respectively, in the array.
+- To create another array `sortedColours` which contains the same objects as in `colours` but sorted according to their colours in red-blue-green order.
+
+Using Visitor pattern to implement the above two operations. You need to write abstract and concrete Visitor classes, modify Red, Blue, Green classes, and write a main program to use a Visitor object to perform each of the operations.
