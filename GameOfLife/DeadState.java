@@ -1,5 +1,7 @@
-public class DeadState extends CellState {
-    protected static DeadState instance;
+import java.util.List;
+
+public class DeadState implements CellState {
+    private static DeadState instance;
     
     private DeadState() {   
     }
@@ -8,6 +10,10 @@ public class DeadState extends CellState {
         if (instance == null)
             instance = new DeadState();
         return instance;
+    }
+    
+    public void accept(LifeVisitor v, Cell c, GameOfLife g, List<LifeCommand> cmds) {
+        v.visitDeadCell(c, g, cmds);
     }
     
     @Override

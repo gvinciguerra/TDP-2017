@@ -1,5 +1,5 @@
 public abstract class LifeCommand {
-   protected Cell cell;
+    protected Cell cell;
 
     public LifeCommand(Cell cell) {
         this.cell = cell;
