@@ -5,6 +5,14 @@ Project files can be opened with the [BlueJ development environment](
 https://www.bluej.org/).
 
 ## Assignment descriptions
+### [Game of Life](/GameOfLife)
+
+<img src="/GameOfLife/demo.gif" align="left" width="72" hspace="5" alt="Game of Life gif">
+
+The application of various design patterns (Observer, State, Singleton, Command, and Visitor) to the classic Game of Life program. Based on the paper by Michael R. Wick "Teaching Design Patterns in CS1: a Closed Laboratory Sequence based on the Game of Life" (2005).
+
+<p align="center"><img src="/GameOfLife/uml.png" width="500" hspace="5" alt="Game of Life UML Diagram"></p>
+
 ### [Strategy](/Strategy)
 PizzaCap is a company that sells pizzas and gives discounts to clients. But there are many kinds of discount calculation methods such as: 10% off, reduce a fixed amount, happy hour, no discount at all, etc.
 
@@ -52,7 +60,7 @@ Extend the ugly duckling example to adapt turkeys too:
 1. Modify the home theatre example along the following dimensions:
   - CD is substituted with a french one.
   - The system prevents you from watching a movie you saw.
-2. Create and example where Façade is an abstract class with different concrete subclasses.
+2. Create and example where Façade is an abstract class with different concrete subclasses.
 
 ### Template Method [1](/TemplateMethod1) & [2](/TemplateMethod2)
 Use the Template Method pattern to:
