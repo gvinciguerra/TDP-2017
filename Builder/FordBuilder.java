@@ -1,11 +1,8 @@
-public class FordBuilder implements CarBuilder {
+public class FordBuilder implements CarBuilder { 
+    private Car c;
+    private String brand = "Ford";
     
-    Car c;
-    String brand = "Ford";
-    
-    public FordBuilder()
-    {
-       
+    public FordBuilder() {
     }
 
     public void buildCar() {

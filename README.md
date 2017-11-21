@@ -81,3 +81,6 @@ Given three colour classes (Red, Blue, Green), assume an array `colours` contain
 - To create another array `sortedColours` which contains the same objects as in `colours` but sorted according to their colours in red-blue-green order.
 
 Using Visitor pattern to implement the above two operations. You need to write abstract and concrete Visitor classes, modify Red, Blue, Green classes, and write a main program to use a Visitor object to perform each of the operations.
+
+### [Builder](/Builder)
+In most available (on the web) examples of use of Builder there is only one Director, and the Director only has a construction method. This way the full power of the pattern is not exploited. Invent an example (or extend an existing one) of use of builder with this observation in mind.

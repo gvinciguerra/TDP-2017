@@ -1,11 +1,8 @@
 public class FiatBuilder implements CarBuilder {
+    private Car c;
+    private String brand = "Fiat";
     
-    Car c;
-    String brand = "Fiat";
-    
-    public FiatBuilder()
-    {
-        
+    public FiatBuilder() {
     }
 
     public void buildCar() {

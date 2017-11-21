@@ -1,7 +1,5 @@
-
 public class BasicSeller {
-    
-    CarBuilder cb;
+    private CarBuilder cb;
     
     public BasicSeller(CarBuilder cb) {
         this.cb = cb;

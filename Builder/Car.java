@@ -1,14 +1,12 @@
 public class Car {
-    
-    String brand;
-    String color;
-    String intern;
-    String engine;
-    String carBody;
-    String extra;
+    private String brand;
+    private String color;
+    private String intern;
+    private String engine;
+    private String carBody;
+    private String extra;
     
     public Car() { 
-        
     }
 
     public void setBrand(String brand) {
@@ -43,6 +41,5 @@ public class Car {
         if (extra != null) 
             System.out.println("And it's not over! You have also all these extras: "
                                 + extra + "! \nWhat an amazing customer you are!\n");
-        
     }
 }

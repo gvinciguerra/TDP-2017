@@ -1,6 +1,5 @@
 public class PremiumSeller {
-    
-    CarBuilder cb;
+    private CarBuilder cb;
     
     public PremiumSeller(CarBuilder cb) {
         this.cb = cb;
