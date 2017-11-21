@@ -5,10 +5,10 @@ public class Cell {
     private int col;
     private CellState cellState;
 
-    public Cell(int row, int col) {
+    public Cell(int row, int col, boolean alive) {
         this.row = row;
         this.col = col;
-        this.cellState = DeadState.create();
+        this.cellState = alive ? AliveState.create() : DeadState.create();
     }
 
     public void live() {

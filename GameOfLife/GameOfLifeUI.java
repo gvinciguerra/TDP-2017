@@ -55,7 +55,7 @@ public class GameOfLifeUI extends JPanel {
     }
 
     public static void main(String[] args) {
-        GameOfLife game = new GameOfLife(150, 150);
+        GameOfLife game = new GameOfLife(100, 100);
         GameOfLifeUI ui = new GameOfLifeUI(game);
 
         JButton button = new JButton("Start");

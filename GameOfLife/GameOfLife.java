@@ -9,10 +9,13 @@ public class GameOfLife {
     public GameOfLife(int rows, int cols) {
         this.rows = rows;
         this.cols = cols;
-        grid = new Cell[rows][cols];
+        this.grid = new Cell[rows][cols];
+        Random random = new Random(); 
         for (int i = 0; i < rows; i++)
-            for (int j = 0; j < cols; j++)
-                grid [i][j] = new Cell(i, j);
+            for (int j = 0; j < cols; j++) {
+                boolean alive = random.nextInt(1000) % 13 == 0;
+                grid [i][j] = new Cell(i, j, alive);   
+            }
     }
     
     public int getRows() {
