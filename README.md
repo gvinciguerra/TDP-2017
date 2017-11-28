@@ -85,7 +85,7 @@ Using Visitor pattern to implement the above two operations. You need to write a
 ### [Builder](/Builder)
 In most available (on the web) examples of use of Builder there is only one Director, and the Director only has a construction method. This way the full power of the pattern is not exploited. Invent an example (or extend an existing one) of use of builder with this observation in mind.
 
-### [Chain Of Responsibility](/ChainOfResponsibility)
+### [Chain of Responsibility](/ChainOfResponsibility)
 When the client of a bank asks for a loan, (s)he asks to: 
 - the desk employee, who is entitled of approving loans up to
 $10.000, otherwise (s)he asks to...
@@ -94,3 +94,10 @@ $10.000, otherwise (s)he asks to...
 - ...
 
 Dynamically change the chain (no more deputy director of the bank branch).
+
+### [Chain of Responsibility & Builder](/ChainOfResponsibilityAndBuilder)
+Use CoR to write a program that, given a number n < 50, is able to return:
+- the number of primes smaller than n, and
+- the decomposition in prime factors of n.
+
+Use Builder to build the chain, in a situation where there are two kinds of handlers, and hence two chains (the client decides which chain to build).
