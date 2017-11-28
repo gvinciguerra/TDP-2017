@@ -84,3 +84,13 @@ Using Visitor pattern to implement the above two operations. You need to write a
 
 ### [Builder](/Builder)
 In most available (on the web) examples of use of Builder there is only one Director, and the Director only has a construction method. This way the full power of the pattern is not exploited. Invent an example (or extend an existing one) of use of builder with this observation in mind.
+
+### [Chain Of Responsibility](/ChainOfResponsibility)
+When the client of a bank asks for a loan, (s)he asks to: 
+- the desk employee, who is entitled of approving loans up to
+$10.000, otherwise (s)he asks to...
+- the deputy director of the bank branch, who is entitled of approving loans up to $50.000, otherwise (s)he asks to...
+- The director of the bank branch, who is entitled of approving loans up to $200.000, otherwise (s)he asks to...
+- ...
+
+Dynamically change the chain (no more deputy director of the bank branch).
