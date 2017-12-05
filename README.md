@@ -101,3 +101,17 @@ Use CoR to write a program that, given a number n < 50, is able to return:
 - the decomposition in prime factors of n.
 
 Use Builder to build the chain, in a situation where there are two kinds of handlers, and hence two chains (the client decides which chain to build).
+
+
+### [Flyweight](/Flyweight)
+A Flyweight object has intrinsic state that cannot be changed. This also means that a Flyweight object cannot have any public-accessible set() method to set a new value for some instance variable of the object. Consider using the Flyweight pattern to allow a Flyweight object to have set() methods. When a set() method of a Flyweight object is called, the object becomes a non-Flyweight, non-shared object. This idea is similar to copy-on-write.
+
+Build an example of copy-on-write. For instance: decorate the Christmas tree and then change colour to some decorations.
+
+### [Proxy](/Proxy)
+Consider your phone being the subject. Build a firewall proxy that filters sms and phone calls to block those of stalkers (and your former boy/girlfriends). The blacklist must be updatable.
+
+### [Interpreter](/Interpreter)
+Define an interpreter for boolean expressions. The interpretation must be an integer: "1" for true a "0"
+for false.
+`E ::= true || false || E and E || E or E || not E || (E)`
