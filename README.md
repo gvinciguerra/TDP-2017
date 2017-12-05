@@ -112,6 +112,6 @@ Build an example of copy-on-write. For instance: decorate the Christmas tree and
 Consider your phone being the subject. Build a firewall proxy that filters sms and phone calls to block those of stalkers (and your former boy/girlfriends). The blacklist must be updatable.
 
 ### [Interpreter](/Interpreter)
-Define an interpreter for boolean expressions. The interpretation must be an integer: "1" for true a "0"
-for false.
+Define an interpreter for boolean expressions. The interpretation must be an integer: "1" for true a "0" for false.
+
 `E ::= true || false || E and E || E or E || not E || (E)`
