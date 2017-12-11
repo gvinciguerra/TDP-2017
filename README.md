@@ -115,3 +115,6 @@ Consider your phone being the subject. Build a firewall proxy that filters sms a
 Define an interpreter for boolean expressions. The interpretation must be an integer: "1" for true a "0" for false.
 
 `E ::= true || false || E and E || E or E || not E || (E)`
+
+### [Memento](/Memento)
+Use Memento to save and restore the Strategies used to decorate a Christmas tree.
