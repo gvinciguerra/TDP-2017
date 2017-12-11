@@ -1,7 +1,6 @@
 import java.util.*;
 
 public abstract class AbstractChatroom {
-    
     public abstract void register(Participant participant);
     
     public abstract void send(String from, String to, String msg);

@@ -1,7 +1,6 @@
 import java.util.*;
 
 public class Participant {
-    
     private String name;
     private AbstractChatroom chatroom;
     

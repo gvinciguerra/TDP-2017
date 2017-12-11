@@ -1,7 +1,6 @@
 import java.util.*;
 
-public class Chatroom extends AbstractChatroom
-{
+public class Chatroom extends AbstractChatroom {
     private AbstractMap<String, Participant> users;
     private AbstractMap<String, List<String>> groups;
     

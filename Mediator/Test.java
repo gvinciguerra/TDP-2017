@@ -1,7 +1,6 @@
 import java.util.*;
 
 public class Test {
-    
     public static void main(String[] args) {
         AbstractChatroom chatroom = new Chatroom();
         Participant ugo = new Participant("Ugo", chatroom);

@@ -118,3 +118,18 @@ Define an interpreter for boolean expressions. The interpretation must be an int
 
 ### [Memento](/Memento)
 Use Memento to save and restore the Strategies used to decorate a Christmas tree.
+
+### [Mediator](/Mediator)
+This exercise wants to demonstrate the Mediator pattern facilitating loosely coupled communication between different Participants registering with a Chatroom.
+
+The Chatroom is the central hub through which all communication takes place.
+
+Implement the Chatroom, having the following interface:
+```java
+public interface AbstractChatroom {
+  public abstract void register(Participant participant);
+  public abstract void send(String from, String to, String msg);
+}
+```
+
+At this point only one-to-one communication is implemented in the Chatroom. Optional: experiment with one-to-many (communication to a group).
