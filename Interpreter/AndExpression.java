@@ -3,11 +3,7 @@ public class AndExpression extends NonTerminal {
         super(left, right);
     }
 
-    public boolean evaluate() {
-        //lazy
-        boolean first = left.evaluate();
-        if (!first)
-            return false;
-        return right.evaluate();
+    public int evaluate() {
+        return left.evaluate() * right.evaluate();
     }
 }

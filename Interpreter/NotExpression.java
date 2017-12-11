@@ -3,7 +3,7 @@ public class NotExpression extends NonTerminal {
         super(e);
     }
 
-    public boolean evaluate() {
-        return !left.evaluate();
+    public int evaluate() {
+        return 1 - left.evaluate();
     }
 }

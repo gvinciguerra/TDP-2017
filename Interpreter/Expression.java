@@ -1,3 +1,3 @@
 public interface Expression {
-    public abstract boolean evaluate();
+    public abstract int evaluate();
 }

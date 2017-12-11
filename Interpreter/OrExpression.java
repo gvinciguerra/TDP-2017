@@ -3,11 +3,7 @@ public class OrExpression extends NonTerminal {
         super(left, right);
     }
 
-    public boolean evaluate() {
-        //lazy
-        boolean first = left.evaluate();
-        if (first)
-            return first;
-        return right.evaluate();
+    public int evaluate() {
+        return 1 - (1 - left.evaluate()) * (1 - right.evaluate());
     }
 }

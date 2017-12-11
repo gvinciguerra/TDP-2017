@@ -1,11 +1,11 @@
 public class Terminal implements Expression {
-    private boolean value;
+    private int value;
     
     public Terminal(int value) {
-        this.value = (value == 1);
+        this.value = value;
     }
     
-    public boolean evaluate() {
+    public int evaluate() {
         return value;
     }
 }

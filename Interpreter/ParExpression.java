@@ -3,7 +3,7 @@ public class ParExpression extends NonTerminal {
         super(e);
     }
 
-    public boolean evaluate() {
+    public int evaluate() {
         return left.evaluate();
     }
 }
